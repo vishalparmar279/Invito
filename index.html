@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Invito — Premium QR Wedding Invitations</title>
+  <meta name="description" content="Invito - premium digital & QR wedding invitations."/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="images/Logo.png" alt="Invito logo" class="logo-img">
+      </div>
+      <div class="nav-links">
+        <a href="#templates">Templates</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="cta-link">Get Quote</a>
+      </div>
+      <button class="hamburger" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero-inner container">
+      <div class="hero-copy">
+        <span class="eyebrow">Premium • QR • RSVP</span>
+        <h1>Invitations that feel <em>lovable</em> & look <em>premium</em></h1>
+        <p class="lead">Create beautiful digital invitations with personalized QR codes, RSVP tracking, gallery & music—designed for your story.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#templates">Browse Templates</a>
+          <a class="btn btn-ghost" href="#pricing">See Pricing</a>
+        </div>
+      </div>
+      <div class="hero-visual card-3d">
+        <img src="images/Couple.png" alt="Invito" style="max-width:220px; display:block; margin:0 auto;">
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Why choose Invito?</h2>
+      <p class="section-sub">Designed for modern celebrations — stunning visuals, instant sharing & delightful guest experience.</p>
+      <div class="features">
+        <article class="feature card-3d"><div class="icon">📱</div><h3>QR + Smart RSVP</h3><p>Unique QR invites with RSVP collection, guest limits and Excel export.</p></article>
+        <article class="feature card-3d"><div class="icon">🎨</div><h3>Designer Templates</h3><p>Hand-picked themes for Marathi, Hindi, Christian, Nikah & more.</p></article>
+        <article class="feature card-3d"><div class="icon">⚡</div><h3>Share in Seconds</h3><p>One link works everywhere: WhatsApp, SMS, or QR printed on a card.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMPLATES -->
+  <section class="section alt" id="templates">
+    <div class="container">
+      <h2 class="section-title">Featured Templates</h2>
+      <p class="section-sub">Hover to preview • Click Preview to enlarge</p>
+      <div class="toolbar">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="classic">Classic</button>
+        <button data-filter="modern">Modern</button>
+        <button data-filter="floral">Floral</button>
+        <button data-filter="royal">Royal</button>
+      </div>
+      <div class="grid" id="templateGrid">
+        <article class="template card-3d" data-tags="floral classic"><img class="thumb" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop" alt=""><div class="quick-actions"><button class="qa-btn preview">👁️</button></div><div class="meta"><strong>Floral Serenity</strong><span class="tag">Floral</span></div></article>
+        <article class="template card-3d" data-tags="modern"><img class="thumb" src="https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1200&auto=format&fit=crop" alt=""><div class="quick-actions"><button class="qa-btn preview">👁️</button></div><div class="meta"><strong>Minimal Modern</strong><span class="tag">Modern</span></div></article>
+        <article class="template card-3d" data-tags="royal classic"><img class="thumb" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop" alt=""><div class="quick-actions"><button class="qa-btn preview">👁️</button></div><div class="meta"><strong>Royal Gold</strong><span class="tag">Royal</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Transparent Pricing</h2>
+      <p class="section-sub">Customizations available. Bulk & multi-event packages on request.</p>
+      <div class="pricing">
+        <article class="plan card-3d"><h3>Starter</h3><div class="price">₹999</div><ul><li>1 Template • Names & Date</li><li>QR Link + WhatsApp share</li></ul></article>
+        <article class="plan card-3d featured"><div class="ribbon">Popular</div><h3>Smart RSVP</h3><div class="price">₹1,999</div><ul><li>RSVP Form + Excel Export</li><li>Photo & Venue Map</li></ul></article>
+        <article class="plan card-3d"><h3>Premium</h3><div class="price">₹3,999</div><ul><li>Full Custom Design</li><li>Music • Gallery • Priority Support</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Tell us about your event</h2>
+      <p class="section-sub">Fill the form and we’ll get back with a mock & quote.</p>
+      <form id="contactForm" class="card-3d form" style="padding:18px;">
+        <input name="name" type="text" placeholder="Full Name" required>
+        <input name="phone" type="tel" placeholder="WhatsApp Number" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <select name="package" required>
+          <option value="">Select Package</option>
+          <option>Starter</option>
+          <option>Smart RSVP</option>
+          <option>Premium</option>
+        </select>
+        <input name="date" type="date" placeholder="Event Date" required>
+        <input name="city" type="text" placeholder="City / Venue">
+        <textarea class="full" name="message" placeholder="Tell us about the couple, theme, colors, rituals, etc."></textarea>
+        <button type="submit" class="btn btn-primary full">Request Quote</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="brand-footer">
+        <img src="images/Logo.png" alt="Invito" style="height:70px">
+        <div class="muted" style="font-size:13px">Premium Digital & QR Wedding Invitations</div>
+      </div>
+      <div class="muted">© <span id="year"></span> Invito. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- MODAL PREVIEW -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-body card-3d">
+      <button class="modal-close" aria-label="Close">×</button>
+      <img id="modalImg" alt="Preview">
+    </div>
+  </div>
+
+  <!-- FLOAT -->
+  <a class="whatsapp" href="https://wa.me/919999999999" target="_blank" rel="noopener" aria-label="WhatsApp">🟢</a>
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
